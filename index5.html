@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашнее задание: Формы</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        
+        <fieldset>
+            <legend>Регистрационная анкета</legend>
+
+            <div>
+                <label for="username">Имя:</label><br>
+                <input type="text" id="username" name="username" placeholder="Введите ваше имя" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Электронная почта:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="password">Пароль:</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="country">Выберите страну:</label><br>
+                <select id="country" name="country">
+                    <option value="france">Франция</option>
+                    <option value="usa">США</option>
+                    <option value="canada">Канада</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="comments">Комментарии:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+            </div>
+            <br>
+
+            <div>
+                <input type="submit" value="Отправить">
+                
+                <input type="reset" value="Сбросить">
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
