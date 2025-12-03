@@ -1,0 +1,19 @@
+
+  color: deepskyblue;
+}
+p {
+  color: blue;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h2 {
+  color: green; 
+}
+.highlight {
+  color: orange;
+}
+#priority {
+  color: purple;
