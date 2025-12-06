@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Демонстрация CSS свойств</title>
+  <link rel="stylesheet" href="style7.css">
+
+</head>
+<body>
+  <main>
+    <h1>Демонстрация CSS-свойств: текст, фон, отступы, размеры</h1>
+
+    <section>
+      <h2 class="centered">Центрированный заголовок с красным цветом</h2>
+      <p class="small">Абзац с маленьким шрифтом.</p>
+      <p class="medium">Абзац со средним шрифтом.</p>
+      <p class="large bold">Абзац с крупным и жирным шрифтом.</p>
+    </section>
+
+    <section>
+      <h2>Контейнер с фоном</h2>
+      <div class="bg-container" align="center">
+        <p>Фон с цветом и изображением.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Блоки с отступами и рамками</h2>
+      <div class="block">Обычная рамка</div>
+      <div class="block dashed">Пунктирная рамка</div>
+      <div class="block double">Двойная рамка</div>
+    </section>
+
+    <section>
+      <h2>Элементы с размерами и overflow</h2>
+      <div class="size-row">
+        <div class="box small overflow-hidden">
+          Текст длинный, но лишнее скрывается.
+        </div>
+        <div class="box overflow-scroll">
+          Текст длинный, появляется прокрутка. Текст длинный, появляется прокрутка. Текст длинный, появляется прокрутка. Текст длинный, появляется прокрутка.
+        </div>
+        <div class="box large overflow-hidden">
+          Большой блок с переполнением скрытым. Большой блок с переполнением скрытым. Большой блок с переполнением скрытым. Большой блок с переполнением скрытым.
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
