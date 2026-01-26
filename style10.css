@@ -1,0 +1,68 @@
+section {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ddd; 
+}
+
+button {
+    cursor: pointer; 
+    padding: 5px 10px;
+    transition: background-color 0.3s; /* Плавная анимация */
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+input {
+    padding: 5px;
+}
+
+input:focus {
+    outline: none; /* убрал синюю обводку */
+    border: 2px solid red;
+}
+
+ul li:first-child {
+    color: green;
+    font-weight: bold;
+}
+
+ul li:last-child {
+    color: rgb(16, 16, 121);
+    font-style: italic;
+}
+
+.block a {
+    text-decoration: none; /* убрал подчеркивание */
+    color: blue;
+    transition: color 0.3s;
+}
+
+.block a:hover {
+    color: rgb(113, 84, 31);
+}
+
+.block p {
+    padding: 5px; /* Отступ */
+}
+
+.block p:nth-child(odd) {
+    background-color: #291818; 
+    color: #fff; /* цвет текста */
+}
+
+.content p {
+    padding: 5px;
+    transition: background-color 0.3s;
+}
+
+.content p:first-child:hover {
+    background-color: yellow;
+    cursor: default;
+}
+
+.content input:last-child:focus {
+    background-color: lightgreen;
+    outline: none;
+}
