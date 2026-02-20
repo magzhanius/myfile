@@ -1,0 +1,238 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(200, 210, 210);
+}
+
+header {
+    background-color: white;
+    margin-bottom: 22px;
+    padding: 20px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid rgb(250, 242, 242);
+}
+
+.header-block {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #242424;
+}
+
+.nav a:hover {
+    color: #5856d6;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.btn-secondary {
+    background-color: #dedddd;
+    color: #242424;
+}
+
+.btn-primary {
+    background-color: #5c53e9;
+    color: #fff;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #eff0f3;
+    padding: 10px 14px;
+    border-radius: 10px;
+    gap: 6px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.header-2 {
+    background-color: white;
+    margin-bottom: 22px;
+    padding: 32px 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid rgb(250, 242, 242);
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #170f49;
+}
+
+.nav2 a:hover {
+    color: #4a3aff;
+}
+
+.button-rounded {
+    background-color: #4a3aff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 18px 24px;
+    color: #fff;
+    border: none;
+    border-radius: 76px;
+    cursor: pointer;
+}
+
+.header-3 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 12px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-3 .logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header-3 .search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+.header-3 .search-icon {
+    position: absolute;
+    left: 14px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
+.header-3 .search-input {
+    width: 100%;
+    padding: 10px 16px 10px 42px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    background-color: transparent;
+}
+
+.header-3 .nav-logoipsum {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-left: auto;
+    margin-right: 32px;
+}
+
+.header-3 .nav-logoipsum a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6b7280;
+    transition: color 0.2s ease;
+}
+
+.header-3 .nav-logoipsum a:hover {
+    color: #6366f1;
+}
+
+.header-3 .button-logoipsum {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.header-3 .button-logoipsum:hover {
+    background-color: #2d2d2d;
+}
+
+.header-4 {
+    background-color: white;
+    margin-bottom: 22px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid rgb(250, 242, 242);
+}
+.nav-4 {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.nav-4 a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 425;
+    line-height: 20px;
+    color: #242424;
+    gap: 48px;
+}
+
+.nav-4 a:hover {
+    color: #5856d6;
+}
+.header-block-4 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
